@@ -53,3 +53,4 @@ You can back up data automatically in a certain period of time by Linux cron com
 
     */2 * * * * docker exec containerName sh -c 'mongodump --uri mongodb://user:password@127.0.0.1:27021/databaseName --authenticationDatabase admin  -u user -p password --db databaseName    --archive  --gzip' > /root/mongodump.gz
 
+**Thank you for spending time for me.**
